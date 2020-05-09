@@ -16,21 +16,21 @@ public class App {
 
     public static void main(String[] args) {
 
-        EmployeeDao employeeDao = new EmployeeDaoImpl();
-
-        Employee employee = new EmployeeBuilder()
-                .name("Mr khalil")
-                .gender(true)
-                .salary(2500)
-                .build();
+//        EmployeeDao employeeDao = new EmployeeDaoImpl();
+//
+//        Employee employee = new EmployeeBuilder()
+//                .name("Mr khalil")
+//                .gender(true)
+//                .salary(2500)
+//                .build();
 
 
         //employeeDao.save(employee);
 
 //        employeeDao.deleteById(1);
 
-        List<String> collect = employeeDao.findAll().stream().map(Employee::getName).collect(Collectors.toList());
-        System.out.println(collect);
+//        List<String> collect = employeeDao.findAll().stream().map(Employee::getName).collect(Collectors.toList());
+//        System.out.println(collect);
 
     }
 }
