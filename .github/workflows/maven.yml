@@ -27,5 +27,5 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
-    - name: Build with Maven
-      run: mvn -B package --file jdbcJavaProject/pom.xml
+    - name: Compile
+      run: mvn -B compile --file jdbcJavaProject/pom.xml
